@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Đổi Material3 thành MaterialComponents -->
+    <style name="Base.Theme.App_tn" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Các màu mặc định của hệ thống -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+    </style>
+
+    <style name="Theme.App_tn" parent="Base.Theme.App_tn" />
+</resources>
